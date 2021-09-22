@@ -1,0 +1,30 @@
+@startuml
+left to right direction
+
+actor karyawan as kk
+actor kasir as k
+actor direktur as dr
+actor manager as ma
+
+package system {
+    usecase "Laporan" as lp
+    usecase "Stok Produk" as sp
+    usecase "Permintaan Pembelian" as ppem
+    usecase "Pembayaran Pembelian" as pbpem
+    usecase "Permintaan Return Pembelian" as prpem
+    usecase "Permintaan Penjualan" as ppen
+    usecase "Pembayaran Penjualan" as pbpen
+    usecase "Permintaan Return Penjualan" as prpen
+}
+
+dr --> lp
+dr --> sp
+ma --> pbpem
+ma --> ppem
+ma --> prpem
+kk --> ppen
+kk --> prpen
+k --> pbpen
+
+
+@enduml

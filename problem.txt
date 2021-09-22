@@ -1,0 +1,16 @@
+1. susahnya mengetahui jumlah stok barang yang akan mendekati habis
+2. melihat penjualan pada hari ini
+3. tidak semua orang mengerti sistem informasi
+4. ketika kasir melakukan checkout penjualan kepada konsumen, dan konsumen balik lagi dengan alasan barang kurang
+SOLUSI
+
+1. fitur stok barang
+2. fitur permintaan pembelian
+3. fitur permintaan return pembelian
+4. fitur permintaan penjualan
+5. fitur permintaan return penjualan
+6. fitur laporan
+
+
+
+barang yang sudah dibeli
